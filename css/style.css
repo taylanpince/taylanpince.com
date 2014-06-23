@@ -49,6 +49,7 @@ body{font-family: 'ff-tisa-sans-web-pro', Helvetica, serif;color:#fff;padding-to
 /* 
 * Curtain Link Effect
 *******************/
+
 .link-curtain a {overflow: hidden;font-weight: 500;}
 
 .link-curtain a::before,
@@ -69,9 +70,10 @@ body{font-family: 'ff-tisa-sans-web-pro', Helvetica, serif;color:#fff;padding-to
 .link-curtain a:hover::after,
 .link-curtain a:focus::after {-webkit-transition-delay: 0.3s;transition-delay: 0.3s;}
 
-section .main-description a {position: relative;display: inline-block;outline: none;vertical-align: bottom;text-decoration: none;white-space: nowrap;}
-section .main-description a::before,
-section .main-description a::after {pointer-events: none;;backface-visibility: hidden;-webkit-font-smoothing: antialiased;font-smoothing: antialiased;}
+.main-description {position: relative;z-index: 1; /* needed for setting pseudo-element z-index */overflow: hidden;-webkit-backface-visibility: hidden;backface-visibility: hidden;}
+.main-description a {position: relative;display: inline-block;outline: none;vertical-align: bottom;text-decoration: none;white-space: nowrap;}
+.main-description a::before,
+.main-description a::after {pointer-events: none;-webkit-backface-visibility: hidden;backface-visibility: hidden;-webkit-font-smoothing: antialiased;font-smoothing: antialiased;}
 
 
 /* 
