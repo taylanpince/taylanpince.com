@@ -7,7 +7,7 @@
 ::selection {color:#000;background:rgba(255,255,255,.2);}
 ::-moz-selection {color:#000;background:rgba(255,255,255,.2);}
 
-body{font-family: 'museo-sans', Helvetica, serif;color:#fff;padding-top:12%;text-align:center;}
+body{font-family: 'museo-sans', Helvetica, serif;color:#fff;padding-top:12%;text-align:center;background: url('../images/bg.jpg') no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 
 .headline{font-family:'museo-slab', Helvetica, serif;font-size: 4.2vw;margin: 0 auto;box-sizing: border-box;padding: 27px 0;width: 80%;position: relative;}
 .headline-line{width: 25%;height:2px;background-color:#fff;position:absolute;top: 50%;margin-top: -1px;}
@@ -81,27 +81,11 @@ body{font-family: 'museo-sans', Helvetica, serif;color:#fff;padding-top:12%;text
 	.social-btns a:nth-child(3){}
 	.social-btns a:nth-child(4){}
 	.social-btns a:nth-child(5){}
-	.social-btns a:nth-child(1) img{
-    width: 25px;
-    height: auto;
-    margin-top: 9px;
-}
-	.social-btns a:nth-child(2) img{
-    width: 20px; height: auto; 
-    margin-top: 12px;
-}
-	.social-btns a:nth-child(3) img{
-    width: 20px; height: auto; 
-    margin-top: 13px;
-}
-	.social-btns a:nth-child(4) img{
-    width: 18px; height: auto; 
-    margin-top: 11px;
-}
-	.social-btns a:nth-child(5) img{
-    width: 18px; height: auto; 
-    margin-top: 12px;
-}
+	.social-btns a:nth-child(1) img{width: 25px;height: auto;margin-top: 9px;}
+	.social-btns a:nth-child(2) img{width: 20px; height: auto; margin-top: 12px;}
+	.social-btns a:nth-child(3) img{width: 20px; height: auto; margin-top: 13px;}
+	.social-btns a:nth-child(4) img{width: 18px; height: auto; margin-top: 11px;}
+	.social-btns a:nth-child(5) img{width: 18px; height: auto; margin-top: 12px;}
 }
 
 /* iPads (portrait and landscape) ----------- */
